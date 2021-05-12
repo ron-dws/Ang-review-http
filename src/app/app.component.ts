@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Ang-review-http';
+  title_2 = "Ressources";
 }

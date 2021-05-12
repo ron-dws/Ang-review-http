@@ -1,0 +1,11 @@
+
+.s-display{
+    animation-name: sAnimation;
+    animation-duration: .3s;
+}
+
+
+@keyframes sAnimation {
+  from { transform: translateX(100px)}
+  to { transform: translateX(0px)}
+}
