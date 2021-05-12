@@ -1,5 +1,6 @@
 
 .s-display{
+    margin-top: 3em;
     animation-name: sAnimation;
     animation-duration: .3s;
 }

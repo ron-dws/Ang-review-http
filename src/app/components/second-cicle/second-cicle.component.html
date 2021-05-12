@@ -1,10 +1,17 @@
 
 <div class="s-display">
-    <p>second-cicle works!</p>
+    <!-- <h1 style="text-align: center">Patient Personality</h1> -->
 
     <div>
-        <ul *ngFor="let student of students_second_cicle" style="list-style-type:  none;">
-             <li> {{ student.name }} </li>
+        <ul style="list-style-type:  none; text-align:center">
+            <li style="display: inline; padding: 20px; font-size: 16px; font-weight: bold;"> Patient Name </li>
+            <li style="display: inline; padding: 20px">--</li>
+            <li style="display: inline; padding: 20px; font-size: 16px; font-weight: bold;"> Patient Personality </li>
+       </ul>
+        <ul *ngFor="let student of students_second_cicle" style="list-style-type:  none; text-align: center">
+             <li style="display: inline; padding: 20px"> {{ student.name }} </li>
+             <li style="display: inline; padding: 20px">--</li>
+             <li style="display: inline; padding: 20px; color: green; font-weight: bold;"> {{ student.personality }} </li>
         </ul>
     </div>
 

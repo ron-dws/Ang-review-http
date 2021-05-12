@@ -32,8 +32,9 @@
     height: 60px;
     display: flex;
     align-items: center;
-    background-color: #1976d2;
-    color: white;
+    color: #0000;
+    background-color: rgb(243, 242, 242);
+    border-bottom: .5px solid dodgerblue;
     font-weight: 600;
   }
 
@@ -324,7 +325,7 @@
  
  .routes-display{ 
    animation-name: componentsAnimation;
-   animation-duration: 5s;
+   animation-duration: 2s;
  }
 
  @keyframes componentsAnimation {

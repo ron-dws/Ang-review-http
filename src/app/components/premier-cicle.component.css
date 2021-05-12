@@ -5,6 +5,7 @@
 }
 
 .pcicle-display{
+  margin-top: 3em;
   animation-name: pAnimation;
   animation-duration: .3s;
 }
